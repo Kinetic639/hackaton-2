@@ -16,4 +16,13 @@ const addInputListener = () => {
   searchInput.addEventListener("keyup", debounce(fetchInput, 1000));
 };
 
+
+// const displaySuggestions = (suggestions) => {
+//     const list = document.getElementById('list')
+//     suggestions.forEach(element => {
+//         const liElement = document.createElement('li')
+//         liElement.innerText = element.
+//     });
+// }
+
 export { addInputListener };
