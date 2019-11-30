@@ -5,8 +5,9 @@
 // @import 'components';
 
 .container-main{
-max-width: auto;
-  margin: 0 auto;
+width: auto;
+margin:  auto;
+  margin-left: 0 ;
   text-align: center;
   background: pink; 
   box-sizing: border-box;
@@ -14,3 +15,26 @@ max-width: auto;
    font-family: Arial, Helvetica, sans-serif;
 }
 
+#wyszukiwanie{
+  text-align: center;
+  width: 100px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.ciało-strony{
+#parametry-ksiazki{
+  margin-left: 0;
+  margin-right: 750px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#ostatnio-wyszukiwane{
+display: flex;
+margin-right: 0;
+
+}
+}
