@@ -20,12 +20,12 @@ const placeholder = () => {
     "src",
     "https://d827xgdhgqbnd.cloudfront.net/wp-content/uploads/2016/04/09121712/book-cover-placeholder-188x300.png"
   );
-  document.getElementById("span-tytuł").innerText(book.title);
-  document.getElementById("span-autor").innerText(book.author_name);
-  document.getElementById("span-data").innerText(book.publish_date);
-  document.getElementById("span-ilość").innerText(book.ilość_stron);
-  document.getElementById("span-wydawnictwo").innerText(book.wydawnictwo);
-  document.getElementById("span-ISBN").innerText(book.isbn);
+  document.getElementById("span-tytuł").innerText = book[0].title;
+  document.getElementById("span-autor").innerText = book[0].author_name;
+  document.getElementById("span-data").innerText = book[0].publish_date;
+  document.getElementById("span-ilość").innerText = book[0].ilość_stron;
+  document.getElementById("span-wydawnictwo").innerText = book[0].wydawnictwo;
+  document.getElementById("span-ISBN").innerText = book[0].isbn;
 };
 
 placeholder();
