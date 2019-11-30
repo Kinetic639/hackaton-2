@@ -1,10 +1,10 @@
+import "./styles/main.scss";
 import {addInputListener} from './app/search-controller'
-
 
 addInputListener()
 // fetchData()
 
-// import "./styles/main.scss";
+
 
 // const endpoint = "https://api.punkapi.com/v2/beers";
 // const beers = [];
